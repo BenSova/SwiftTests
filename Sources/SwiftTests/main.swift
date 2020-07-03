@@ -64,7 +64,7 @@ print("Who are you? ", terminator: "")
 var name = readLine()!
 if name.hasPrefix("I am ") { name.removeFirst(5) }
 if name.hasPrefix("I'm ") { name.removeFirst(4) }
-if name.hasPrefix("My name is ") { name.removeFirst(11S) }
+if name.hasPrefix("My name is ") { name.removeFirst(11) }
 print("Hi \((name.isEmpty) ? ("Unknown") : (name))! \(EmojiHand())")
 print("And the test results are... ", terminator: "")
 _ = readLine()
