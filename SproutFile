@@ -1,0 +1,12 @@
+#!/usr/local/bin/sprout check --location
+
+% projectname: SwiftTests
+% cliname: swift-tests
+% builtcli: .build/release/swifttests
+% giturl: https://github.com/BenSova/SwiftTests.git
+
+% build {
+
+swift build -c release
+
+% }
